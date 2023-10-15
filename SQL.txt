@@ -1,0 +1,17 @@
+-- Создание базы данных
+CREATE DATABASE mcc_mnc_storage;
+-- Подключение к базе данных
+\c mcc_mnc_storage;
+-- Создание таблицы mcc_mnc_storage
+CREATE TABLE mcc_mnc_storage (
+    mcc INTEGER,
+    mnc INTEGER,
+    plmn VARCHAR(255),
+    region VARCHAR(255),
+    country VARCHAR(255),
+    iso CHAR(20),
+    operator VARCHAR(255),
+    brand VARCHAR(255),
+    tadig VARCHAR(255),
+    bands VARCHAR(255)
+);
