@@ -1,5 +1,5 @@
 {
-    "database": "public",
+    "database": "mcc_mnc_storage",
     "user": "postgres",
     "password": "1",
     "host": "localhost",
