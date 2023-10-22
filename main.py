@@ -9,7 +9,7 @@ def file_exists_and_readable(file_path):
     return os.path.exists(file_path) and os.access(file_path, os.R_OK)
 
 
-# Загрузка конфигурации из JSON-файла
+
 config_file_path = 'config.json'
 if file_exists_and_readable(config_file_path):
     with open(config_file_path, 'r') as config_file:
